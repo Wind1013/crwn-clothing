@@ -69,7 +69,7 @@ export const CartProvider = ({ children }) => {
       0
     );
     setCartTotal(newCartTotal);
-  }, [cartTotal]);
+  }, [cartItems]);
 
   const addItemToCart = productToAdd => {
     setCartItems(addCartItem(cartItems, productToAdd));
