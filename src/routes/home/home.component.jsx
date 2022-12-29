@@ -1,7 +1,11 @@
 import Directory from "../../components/directory/Directory.component";
 
 const Home = () => {
-  return <Directory />;
+  return (
+    <>
+      <Directory />;
+    </>
+  );
 };
 
 export default Home;
